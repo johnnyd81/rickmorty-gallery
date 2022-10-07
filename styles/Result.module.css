@@ -1,0 +1,36 @@
+.resultPage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.item {
+  outline: 1px solid black;
+}
+
+.item:hover {
+  opacity: 0.6;
+}
+
+.details {
+  display: flex;
+  background-color: darkgrey;
+  padding: 30px;
+  border-radius: 8px;
+  width: 42%;
+  margin: 0 auto;
+  margin-top: 30px;
+  outline: 2px solid black;
+}
+
+.details img {
+  border-radius: 6px;
+}
+
+.details .stats {
+  margin-left: 35px;
+  font-size: 1.1rem;
+}
