@@ -7,7 +7,6 @@ export const getStaticProps = async () => {
   const res = await fetch("https://rickandmortyapi.com/api/character/?page=1"); //the base-url fetches the characters with the query of page 1. This fetches all the characters on page 1
   const data = await res.json();
 
-  console.log(data);
   return {
     props: { characters: data.results }, //the characters are available on data.results
   };
