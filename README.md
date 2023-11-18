@@ -1,6 +1,6 @@
 ## Rick and Morty Characters
 
-This application uses an outside api to fetch data about the characters in the cartoon Rick and Morty. The application was built using next.js. 
+This application uses an outside api to fetch data about the characters in the Rick and Morty cartoon. The application was built using next.js. 
 
 ![image](https://github.com/johnnyd81/rickmorty-gallery/assets/95863021/a9fae7fb-bdd5-4111-b508-200aa3053e47)
 
